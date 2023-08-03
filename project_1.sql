@@ -5,19 +5,19 @@ CREATE TABLE friends (
 );
 
 INSERT INTO friends (id, name, birthday)
-VALUES (1, 'Ororo Munroe', 1940-06-23);
+VALUES (1, 'Ororo Munroe', '1940-06-23');
 
 INSERT INTO friends (id, name, birthday)
-VALUES (2, 'Julius Marcus', 1946-04-21);
+VALUES (2, 'Julius Marcus', '1946-04-21');
 
 INSERT INTO friends (id, name, birthday)
-VALUES (3, 'Samantha Jeffreys', 1943-08-07);
+VALUES (3, 'Samantha Jeffreys', '1943-08-07');
 
 INSERT INTO friends (id, name, birthday)
-VALUES (4, 'Kameron Jannissar', 2001-07-29);
+VALUES (4, 'Kameron Jannissar', '2001-07-29');
 
 INSERT INTO friends (id, name, birthday)
-VALUES (5, 'Karim Maatouk', 2000-06-05);
+VALUES (5, 'Karim Maatouk', '2000-06-05');
 
 UPDATE friends
 SET name = 'Storm Munroe'
