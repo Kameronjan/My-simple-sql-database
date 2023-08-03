@@ -6,3 +6,5 @@ CREATE TABLE friends (
 
 INSERT INTO friends (id, name, birthday)
 VALUES (1, 'Ororo Munroe', 1940);
+
+SELECT * FROM friends;
