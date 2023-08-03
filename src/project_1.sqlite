@@ -5,12 +5,16 @@ CREATE TABLE friends (
 );
 
 INSERT INTO friends (id, name, birthday)
-VALUES (1, 'Ororo Munroe', 1940);
+VALUES (1, 'Ororo Munroe', 1940-06-23);
 
 INSERT INTO friends (id, name, birthday)
-VALUES (2, 'Julius Marcus', 1946);
+VALUES (2, 'Julius Marcus', 1946-04-21);
 
 INSERT INTO friends (id, name, birthday)
-VALUES (3, 'Samantha Jeffreys', 1943);
+VALUES (3, 'Samantha Jeffreys', 1943-08-07);
+
+UPDATE friends
+SET name = 'Storm Munroe'
+WHERE name = 'Ororo Munroe';
 
 SELECT * FROM friends;
