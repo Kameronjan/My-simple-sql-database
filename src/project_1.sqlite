@@ -7,4 +7,10 @@ CREATE TABLE friends (
 INSERT INTO friends (id, name, birthday)
 VALUES (1, 'Ororo Munroe', 1940);
 
+INSERT INTO friends (id, name, birthday)
+VALUES (2, 'Julius Marcus', 1946);
+
+INSERT INTO friends (id, name, birthday)
+VALUES (3, 'Samantha Jeffreys', 1943);
+
 SELECT * FROM friends;
