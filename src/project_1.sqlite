@@ -17,4 +17,7 @@ UPDATE friends
 SET name = 'Storm Munroe'
 WHERE name = 'Ororo Munroe';
 
+ALTER TABLE friends
+ADD COLUMN email TEXT;
+
 SELECT * FROM friends;
