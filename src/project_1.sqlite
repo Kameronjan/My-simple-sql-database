@@ -20,4 +20,16 @@ WHERE name = 'Ororo Munroe';
 ALTER TABLE friends
 ADD COLUMN email TEXT;
 
+UPDATE friends
+SET email = 'Storm@gmail.com'
+WHERE id = '1';
+
+UPDATE friends
+SET email = 'Julius@gmail.com'
+WHERE id = '2';
+
+UPDATE friends
+SET email = 'Samantha@gmail.com'
+WHERE id = '3';
+
 SELECT * FROM friends;
