@@ -1,1 +1,1 @@
-Practicing creating databases, updating, deleting, altering, etc..
+Practicing creating databases, updating, deleting, altering, etc.. (SQL)
